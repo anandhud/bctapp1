@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>BCT APP</name>
+
+    <description>
+        AD's BCT App
+    </description>
+
+    <author href="https://bahwancybertek.com" email="anandhu.d@bahwancybertek.com">
+        Anandhu Dhanapal 
+    </author>
+	 <content src="http://www.bahwancybertek.com/bctmobile/index.php" />
+     <access origin="*" />
+
+</widget>
