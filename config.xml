@@ -7,7 +7,7 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>BCT APP</name>
+    <name>Bahwan CyberTek</name>
 
     <description>
         AD's BCT App
@@ -18,7 +18,12 @@
     <author href="https://bahwancybertek.com" email="anandhu.d@bahwancybertek.com">
         Anandhu Dhanapal 
     </author>
-	 <content src="http://www.bahwancybertek.com/bctmobile/index.php" />
+    <icon src="logoicon.png" />
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    
+     <content src="http://www.bahwancybertek.com/bctmobile/index.php" />
      <access origin="*" />
 
 </widget>
