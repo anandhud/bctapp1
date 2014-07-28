@@ -25,7 +25,10 @@
     <feature name="Camera">
 	<param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
     </feature>
-    
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.file" />
      <content src="http://www.bahwancybertek.com/bctmobile/index.php" />
      <access origin="*" />
 
